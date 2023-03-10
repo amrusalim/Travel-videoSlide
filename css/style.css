@@ -61,7 +61,7 @@ header .menu-btn a {
   transition: 0.3s ease;
 }
 header .menu-btn a:hover {
-  color: #014867;
+  color: #26292b;
   transform: scale(1.5);
   transition: 0.5s ease;
 }
@@ -81,7 +81,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: #2696e9;
+  background: #00000057;
 }
 .home:before {
   z-index: 777;
@@ -248,5 +248,28 @@ section {
     flex-direction: column;
     align-items: center;
     border-radius: 10px 0 0 10px;
+  }
+}
+
+@media (max-width: 426px) {
+  .home .content {
+    margin-top: 10px;
+  }
+  .home .content h1 {
+    font-size: 1.9em;
+
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+  .home .content span {
+    font-size: 1em;
+  }
+  header .navigation .navigation-items {
+    padding: 20px;
+    margin: 0;
+    width: 10em;
+  }
+  header .navigation {
+    width: auto;
   }
 }
